@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.form{
+    background: lightgrey;
+    z-index: 1;
+    font-family: "candara", sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    transform: translate(-50% -50%);
+    width: 70%;
+    height: auto;
+    padding: 0 45px 30px 45px;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 0.7;
+    text-align: left;
+}
+.form input[type=text], select {
+    width: 200px;
+    color:  #000;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid  GOLD;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.form input[type=radio], select {
+    width: 40px;
+    padding: 12px;
+    margin: 8px 0;
+}
+.form input[type=number], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid  GOLD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom-style: solid;
+    color: black;
+  }
+.form input[type=submit] {
+    width: 100px;
+    background-color: GOLD;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid  GOLD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form input[type=submit]:hover {
+    background-color: GOLD;
+}
+img{
+    display: block;
+    margin:  0 auto 0 auto;
+    top: 10%;
+}
+.form button.a{
+    outline: 0;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 15px;
+    border: 3.0px solid LIME;
+    margin-right: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 28px;
+    transition: 0.5s;
+    margin-left: 15px;
+}
+.form button:hover{
+    background: LIME;
+    transform: scale(1.1);
+}
+.form button.a a{
+    text-decoration: none;
+    color: #000;
+}
+.form button.b{
+    outline: 0;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 15px;
+    border: 3.0px solid LIME;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.form button:hover{
+    background: LIME;
+    transform: scale(1.1);
+}
+.form button.b a{
+    text-decoration: none;
+    color: #000;
+}
